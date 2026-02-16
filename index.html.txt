@@ -1,0 +1,68 @@
+<div class="romantic-trigger-wrapper">
+    <div class="touch-text">Touch me</div>
+    <div class="romantic-icon" id="romantic-icon">
+        ❤️
+    </div>
+</div>
+<div id="site-lock">
+  <div class="lock-box">
+    <p>مرحبا بك اروجتي في عالمي الخاص❤️</p>
+    <input type="password" id="password-input" placeholder="كلمة السر">
+    <button id="unlock-btn">افتح الموقع</button>
+    <p id="error-msg" style="color:red; display:none;">كلمة السر خاطئة!</p>
+  </div>
+</div>
+<div class="video-bg">
+    <video autoplay muted loop playsinline>
+        <source src="https://www.dropbox.com/scl/fi/3c4rstp5g32jad9iznp5s/5668820-uhd_4096_2160_30fps.mp4?rlkey=tuw73sga7prpcamqt3kpp6m7x&raw=1" type="video/mp4">
+    </video>
+</div>
+
+<div class="content-wrapper">
+    <h1 id="main-word">Ömrüm</h1>
+</div>
+<div class="music-toggle" id="music-btn">
+    <div class="pulse-ring"></div>
+    <span id="icon">🎵</span>
+</div>
+
+<audio id="myAudio" loop>
+    <source src="https://www.dropbox.com/scl/fi/vf0u6594c4tlmuky1qtao/original-sound-edyt.e_musicaldown.com_1771104125.mp3?rlkey=ua03ajvdx3yn0lgn4dknmdk90&raw=1" type="audio/mpeg">
+</audio>
+<div class="letter-icon-container" id="open-letter">
+    <div class="letter-icon">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14 2H6C4.89543 2 4 2.89543 4 4V20C4 21.1046 4.89543 22 6 22H18C19.1046 22 20 21.1046 20 20V8L14 2Z" stroke="#ffd700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M14 2V8H20" stroke="#ffd700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </div>
+    <span class="letter-hint">هذا من أجلك</span>
+</div>
+
+<div class="gold-overlay" id="letter-overlay">
+    <div class="gold-card">
+        <button class="close-btn" id="close-letter">×</button>
+        <div class="letter-text">
+            <p>اليوم قد كان يوم العشاق وعيد الحب، مع أني ليس لي إيمانٌ بهذا العيد لكن لن أجعل حبيبة عمري تخرج بدون هدية مرةً أخرى، حتى لو كانت هديةً بسيطةً ومتواضعة، لكن صُنعت بكل حبٍ وإخلاص قد كان لي تعبٌ كبيرٌ في صناعتها، أخذت مني وقتاً طويلاً لكن لا شيء قد يغلو عليكِ يا كل شيء.</p>
+            <p>لي ذكرى في هذا اليوم، أذكر في يومٍ كهذا في العام الماضي، قد إتصلتُ بكي، لكن لم يكن الرد منكي بل كان من أختكِ كانت قد أجابت غاضبةً ومن هناك كُتب علينا الفراق، أنا أسف على كل يوم تعيس قد مررتي به بسببي أنا أسف على كل شيء، سأحبك دائماً.</p>
+        </div>
+    </div>
+</div>
+<div class="camera-icon-container" id="open-camera">
+    <div class="camera-icon">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M23 19C23 19.5304 22.7893 20.0391 22.4142 20.4142C22.0391 20.7893 21.5304 21 21 21H3C2.46957 21 1.96086 20.7893 1.58579 20.4142C1.21071 20.0391 1 19.5304 1 19V8C1 7.46957 1.21071 6.96086 1.58579 6.58579C1.96086 6.21071 2.46957 6 3 6H7L9 3H15L17 6H21C21.5304 6 22.0391 6.21071 22.4142 6.58579C22.7893 6.96086 23 7.46957 23 8V19Z" stroke="#ffd700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="12" cy="13" r="4" stroke="#ffd700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </div>
+    <span class="camera-hint">لازال كل شيء</span>
+</div>
+
+<div class="camera-overlay" id="camera-overlay">
+    <div class="camera-content">
+        <button class="close-camera" id="close-camera">×</button>
+        <div class="images-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/4gzndnzonnxs8fgcda2m9/c4d90769-efb1-49a6-bbc5-9f53d3bd9285.jfif?rlkey=8z0b3wzqhin6klwuk9s5qxdih&st=3zhiv697&dl=1" alt="Image 1">
+            <img src="https://www.dropbox.com/scl/fi/4gzndnzonnxs8fgcda2m9/c4d90769-efb1-49a6-bbc5-9f53d3bd9285.jfif?rlkey=8z0b3wzqhin6klwuk9s5qxdih&st=k1hm5daf&dl=1" alt="Image 2">
+        </div>
+    </div>
